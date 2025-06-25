@@ -171,9 +171,3 @@ iface = gr.Interface(
 # Launch app
 iface.launch()
 
-"""To fix the `PyngrokNgrokError` and run your Streamlit app using ngrok, you need to set your ngrok authtoken. You can get your authtoken from your ngrok dashboard.
-
-It is recommended to store your authtoken securely in Colab's Secrets manager. Go to the "🔑" tab in the left panel, add a new secret named `NGROK_AUTH_TOKEN`, and paste your authtoken there.
-
-After setting the authtoken, you can rerun the cell to start the Streamlit app and get the public URL.
-"""
